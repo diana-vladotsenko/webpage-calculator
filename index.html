@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator by Di</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Calculator</h1>
+<p id="demo">
+<div class="calculator" id = "calc">
+    <input type="text" id = "display" class="display" disabled>
+    <div class="container-operators">
+        <button class = "operator" id = "c" name = "clear-button">Clear</button>
+        <button class = "operator" id = "b" name = "backspace-button"><-</button>
+        <button class = "operator" id = "/" name = "division-button">÷</button>
+    </div>
+    <div class="container-numeric">
+        <div class="line">
+            <button class = "numeric" id = "9" name = "button-numeric-9">9</button>
+            <button class = "numeric" id = "8" name = "button-numeric-8">8</button>
+            <button class = "numeric" id = "7" name = "button-numeric-7">7</button>
+            <button class = "operator" id = "*" name = "button-addition">*</button>
+        </div>
+        <div class="line">
+            <button class = "numeric" id = "6" name = "button-numeric-6">6</button>
+            <button class = "numeric" id = "5" name = "button-numeric-5">5</button>
+            <button class = "numeric" id = "4" name = "button-numeric-4">4</button>
+            <button class = "operator" id = "-" name = "button-subtraction">-</button>
+        </div>
+        <div class="line">
+            <button class = "numeric" id = "3" name = "button-numeric-3">3</button>
+            <button class = "numeric" id = "2" name = "button-numeric-2">2</button>
+            <button class = "numeric" id = "1" name = "button-numeric-1">1</button>
+            <button class = "operator" id = "+" name = "button-add">+</button>
+        </div>
+        <div class="line">
+            <button class = "numeric-0" id = "0" name = "numeric-0">0</button>
+            <button class = "operator" id = "=" name = "button-equal">=</button>
+        </div>
+    </div>
+</div>
+    <script src="calculator.js"></script>
+
+</body>
+</html>

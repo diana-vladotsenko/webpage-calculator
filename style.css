@@ -1,0 +1,101 @@
+как исправить * { 
+    box-sizing: border-box;
+    margin: 0px;
+}
+.body {
+    font-family: monospace;
+    font-size: 40px;
+}
+.calculator{
+    display: grid;
+    justify-content: center;
+    margin: 200px;
+    padding: 5px;
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+    border-color: black;
+    padding: 30px;
+    font-size: 40px;
+    background-color: black;
+    color: aliceblue;
+    text-align: right;
+}
+
+.container-operators{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-color: black ;
+}
+
+.operator{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    padding-right: 80px;
+    padding-left: 80px;
+    font-size: 30px;
+    background-color: orange;
+    cursor: pointer
+}
+.container-numeric{
+    display: grid;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
+.numeric{
+    width: 100%;
+    display: flex;
+    padding-right: 70px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+.line{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.numeric:hover{
+    background-color: grey;
+}
+.operator:hover{
+    background-color: darkorange;
+}
+.numeric-0{
+    display: flex;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    background-color: darkgrey;
+    cursor: pointer;
+}
+.button-equal{
+    display: flex;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: orange;
+}
+.numeric-0:hover{
+    background-color: grey;
+}
+.button-equal:hover {
+    display: flex;
+    cursor: pointer;
+    background-color: darkgoldenrod;
+}
